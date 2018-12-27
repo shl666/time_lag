@@ -14,28 +14,28 @@ APP Store里，大多与时差相关的程序，只会给出当前时刻的世�
 I don't wanna translate the part above, too long for me and useless for you.
 
 # 环境要求 Requirement
-Pyton3.6
+Python 3.6
 
 pytz (一个python包／a python module)
 
 # 使用方法 Usage
 首次使用需要给shell文件权限 <br>
 Run the following code for the first time of using...
-'''bash
+```bash
 $ chmod +x ./run.sh 
-'''
+```
 
 在*run.shell*中要设置三个参数， 分别是 -tz1（待转换时区）-tz2（目标时区）-tz1_time（待转换时间）。三个参数都是str格式的，照着样例改就行了。然后运行shell文件即可<br>
 Three parameters in the *run.shell* file: -tz1(time zone that need to be converted), -tz2(target time zone), -tz1_time(time that need to be converted). Plz follow the example to set your own data. Then run it.
-'''bash
+```bash
 $ ./run.sh 
-'''
+```
 
 样例 example：
-'''bash
+```bash
 $ ./run.sh 
 2018-12-27 13:01:00 PST-0800 Thursday
-'''
+```
 
 # 未完成列表 to do list
 1. UI设计
